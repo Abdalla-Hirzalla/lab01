@@ -8,8 +8,36 @@
     <style>
       h1{
         text-align: center;
-        background-color: darkgreen;
+        background-color: rgb(28, 2, 255);
       }
+      #n{
+        color: black; 
+         background-color:rgb(0, 252, 0);
+         text-align: center;
+      }
+    
+      #a{
+        color: darkblue; 
+         background-color:rgb(2, 196, 11);
+         text-align: center;
+
+      }
+      
+
+      #f{
+
+        color: red; 
+         background-color:rgb(3, 148, 3);
+         text-align: center;
+      }
+
+      #h{
+      color: pink; 
+         background-color:rgb(0, 82, 14);
+         text-align: center;
+         
+      }
+        
     </style>
 </head>
 <body>
@@ -17,8 +45,8 @@
        <h1> Class 1 Lab </h1>
     </header>
     <main>
-      <p style="color: black ; background-color:royalblue; text-align: center;"> Welcome to our website  </p>
-      <p style="color: gold; background-color: grey; text-align: center;">Here you will learn about html, CSS, JS</p>
+      <p style="color: yellow ; background-color:royalblue; text-align: center;"> Welcome to our website  </p>
+      <p style="color: gold; background-color: rgb(37, 80, 206); text-align: center;">Here you will learn about html, CSS, JS</p>
       
     </main>
     <footer>
@@ -27,22 +55,22 @@
       let userName=prompt('What is your Name ?');
       console.log(userName);
       alert('your name is'+ ' '+ userName);
-      document.write('<p>' + userName + '</p>');
+      document.write('<p id="n">' +'your name is'   +' '+ userName + '</p>');
 
       let age=prompt('How old are you ?');
       console.log(age);
       alert('Your age is'+ ' ' + age);
-      document.write('<p>' + age + '</p>');
+      document.write('<p id="a">' +'your age is'+' '+  age + '</p>');
 
       let favSport=prompt('What is your favourite Sport ?');
       console.log(favSport);
       alert('Your favourite sport is '+ ' '+ favSport);
-      document.write('<p>' + favSport + '</p>');
+      document.write('<p id="f">' + 'your favourite sport is '+' '+ favSport + '</p>');
 
       let hoppy=prompt('What is your Hoppy');
       console.log(hoppy);
       alert('Your Hoppy is '+ ' ' + hoppy);
-      document.write('<p>' + hoppy + '</p>');
+      document.write('<p id="h">'+'your hoppy is ' +' '+  hoppy + '</p>');
       
       alert('hello,'+ ' ' + userName +' '+ 'your age is '+ ' '+ age + ' '+'  you love sports like' +' '+ favSport +' '+ 'your hoppy is '+ ' '+ hoppy +' '+ '..Thank you for visiting our website');
       
